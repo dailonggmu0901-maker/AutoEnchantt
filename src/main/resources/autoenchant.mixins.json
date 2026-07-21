@@ -1,1 +1,9 @@
-
+{
+  "required": true,
+  "package": "me.hilo.autoenchant.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
