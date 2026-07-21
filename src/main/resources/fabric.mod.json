@@ -1,1 +1,29 @@
-
+{
+  "schemaVersion": 1,
+  "id": "autoenchant",
+  "version": "${version}",
+  "name": "AutoEnchant",
+  "description": "Automatic enchanting using Baritone.",
+  "authors": [
+    "HiLo"
+  ],
+  "contact": {
+    "sources": "https://github.com/YOUR_NAME/AutoEnchant"
+  },
+  "license": "MIT",
+  "icon": "assets/autoenchant/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.hilo.autoenchant.AutoEnchant"
+    ]
+  },
+  "mixins": [
+    "autoenchant.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "1.21.4",
+    "fabric-api": "*"
+  }
+}
